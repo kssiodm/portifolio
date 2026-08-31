@@ -295,16 +295,15 @@ IMAGEM DO PROJETO
 }
 
 .project-preview img {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 
 
-display: block;
+    display: block;
 
-object-fit: cover;
+    object-fit: cover;
 
-transition: 0.3s;
-
+    transition: 0.3s;
 
 }
 
@@ -332,10 +331,14 @@ justify-content: space-between;
 .project-info h3 {
 font-size: 16px;
 
-
+color: var(--white);
 margin-bottom: 4px;
 
 
+}
+
+.project:hover .project-info h3 {
+    color: var(--purple-light);
 }
 
 .project-info p {
